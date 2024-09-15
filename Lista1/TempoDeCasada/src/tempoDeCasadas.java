@@ -26,5 +26,6 @@ public class tempoDeCasadas {
             System.out.println("Digite quanto tempo de casada: ");
             tempoDeCasada = teclado.nextInt();
         }
+        teclado.close();
     }
 }
